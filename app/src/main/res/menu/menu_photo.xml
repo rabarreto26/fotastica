@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.anhembimorumbi.adsgexvo.fotastica.PhotoActivity">
+    <item android:id="@+id/action_gray" android:title="Tons de cinza" android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_vedge" android:title="Bordas verticais" android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_hedge" android:title="Bordas horizontais" android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_negative" android:title="Negativo" android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_contrast" android:title="Contraste" android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_laplace" android:title="Filtro laplaciano" android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_histogram" android:title="Histograma" android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_facebook" android:title="Publicar no Facebook" android:orderInCategory="100" app:showAsAction="never" />
+</menu>
