@@ -50,8 +50,8 @@ public class MainActivity extends ActionBarActivity {
             public void onClick(View view) {
                 //Captura a imagem da camera
 
-                /*
-                Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+
+                /*Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
                     startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
                 }*/
@@ -76,7 +76,9 @@ public class MainActivity extends ActionBarActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
             Bundle extras = data.getExtras();
-            Bitmap imageBitmap = (Bitmap) extras.get("data");
+
+            //Ajusta o tamanho da imagem, proporcionalmente para uma largura de 300 pixels
+            imageBitmap = ResizeBitmap((Bitmap) extras.get("data"),300);
             AbreTratamentoImagem();
         }
     }
