@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Projeto desenvolvido pelos alunos GEX ADS VO para a matéria de COMPUTAÇÃO MÓVEL "
+        android:text="Projeto pelos alunos GEX ADS VO para a matéria de COMPUTAÇÃO MÓVEL "
         android:id="@+id/textView2"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
