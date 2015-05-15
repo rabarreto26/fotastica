@@ -1,0 +1,2 @@
+include ':app', ':facebook'
+include ':openCVLibrary2410'
